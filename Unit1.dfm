@@ -33,7 +33,7 @@ object IWForm1: TIWForm1
     Left = 24
     Top = 72
     Width = 489
-    Height = 129
+    Height = 49
     Font.Color = clNone
     Font.Size = 10
     Font.Style = []
