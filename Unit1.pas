@@ -38,7 +38,7 @@ end;
 
 procedure TIWForm1.IWButton1Click(Sender: TObject);
 begin
- Caption:='commit' ;
+ Caption:='i am commit' ;
 end;
 
 initialization
