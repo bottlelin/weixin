@@ -5,13 +5,15 @@ interface
 uses
   Classes, SysUtils, IWAppForm, IWApplication, IWColor, IWTypes, Vcl.Controls,
   IWVCLBaseControl, IWBaseControl, IWBaseHTMLControl, IWControl, IWCompLabel,
-  IWCompMemo;
+  IWCompMemo, IWCompButton;
 
 type
   TIWForm1 = class(TIWAppForm)
     iwlbl1: TIWLabel;
     iwlbl2: TIWLabel;
+    IWButton1: TIWButton;
     procedure IWAppFormCreate(Sender: TObject);
+    procedure IWButton1Click(Sender: TObject);
   public
   end;
 
@@ -32,6 +34,11 @@ begin
     iwlbl1.Caption := match.Value + WebApplication.AppUrlBase + 'wxapi?wid=1'
   else
     iwlbl1.Caption := WebApplication.ApplicationURL + '/wxapi?wid=1'
+end;
+
+procedure TIWForm1.IWButton1Click(Sender: TObject);
+begin
+ Caption:='commit' ;
 end;
 
 initialization

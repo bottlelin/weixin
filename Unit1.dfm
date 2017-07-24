@@ -46,4 +46,18 @@ object IWForm1: TIWForm1
       '1'#12289'uWxApi'#21333#20803#30340#31532' 79 '#34892#65292#26367#25442#20854#20013#30340'Token'#20026#20320#24494#20449#21495#30340'Token'#12290#13#10'2'#12289'uWxMsgHandler'#21333#20803#30340#31532' 93' +
       ' '#34892#65292#26367#25442#20854#20013#30340'Token'#12289'AppID'#31561#20026#20320#24494#20449#21495#30340#30456#20851#35774#32622#12290
   end
+  object IWButton1: TIWButton
+    Left = 360
+    Top = 264
+    Width = 75
+    Height = 25
+    Caption = 'IWButton1'
+    Color = clBtnFace
+    Font.Color = clNone
+    Font.Size = 10
+    Font.Style = []
+    FriendlyName = 'IWButton1'
+    TabOrder = 0
+    OnClick = IWButton1Click
+  end
 end
